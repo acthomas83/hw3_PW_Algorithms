@@ -55,18 +55,22 @@ console.log(uppercaseEl)
 
 
 clipboard.addEventListener('click', function() {
-	var textarea = document.createElement('textarea');
+	var textarea = document.getElementsByTagName(textarea);
 	var password = resultEl.innerText;
 	// I DONT UNDERSTAND THIS CODE!!!!!!!!!!!!!!!
 	if(!password) { return; }
-	
 	textarea.value = password;
 	document.body.appendChild(textarea);
-	textarea.select();
-	document.execCommand('copy');
+    textarea.select();
+    textarea.setSelectionRange(0, 99999);
+	document.execCommand('clipboard');
 	textarea.remove();
-	alert('Password copied to clipboard');
+    alert('Password copied to clipboard');
+    
+    console.log(clipboard)
 });
+
+
 
 generateEl.addEventListener('click', function() {
 	var length = +lengthEl.value;
@@ -98,7 +102,8 @@ function generatePassword(lower, upper, number, symbol, length) {
 	
 	const finalPassword = generatedPassword.slice(0, length);
 	
-	return finalPassword;
+    return finalPassword;
+    
 }
 function getRandomLower() {
 	return String.fromCharCode(Math.floor(Math.random() * 26) + 97);

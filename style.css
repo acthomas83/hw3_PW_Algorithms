@@ -3,6 +3,10 @@ body {
 }
 h1 {
     background-color: white;
+    text-align: center;
+}
+h2 {
+    text-align: left;
 }
 .parent {
     border-style: solid;
@@ -12,9 +16,27 @@ h1 {
     
 }
 .setting {
-	display: flex;
-	justify-content: space-evenly;
+	display: block;
+	justify-content: space-around;
 	align-items: center;
-    margin: 15px 0;
+    margin: 10px 0;
     text-align: center;
+}
+
+/* .checkbox-grp-srt {
+    float: left;
+} */
+
+.checkbox-grp-end {
+    /* clear: both; */
+}
+
+textarea {
+    width: 700px;
+    height: 150px;
+    border-style: dashed;
+}
+
+input {
+    width: 60px;
 }
