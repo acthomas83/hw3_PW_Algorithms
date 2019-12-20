@@ -15,40 +15,54 @@
 </head>
 
 <body>
-  <header class = "container" ;>
+
+  <!-- <div class="card">
+    <h5 class="card-header">Featured</h5>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+
+  <header class="container card" ;>
     <h1>Password Generator</h1>
-  </headerclass=container;>
-  <div class = "container parent";>
+  </header>
+  <div class="container card-header text-center" ;>
     <h2>Generate a Password</h2>
 
-    <div class="settings">
+    <div class="card-title">
       <div class="setting">
-          <label>Password length</label>
-          <input type="number" id="length" min='8' max='128' value='15' />
+        <label>Password length</label>
+        <input type="number" id="length" min='8' max='128' value='15' />
       </div>
       <div class="setting">
-          <label>Include uppercase letters</label>
-          <input type="checkbox" id="uppercase" checked />
+        <label>Include uppercase letters</label>
+        <input type="checkbox" id="uppercase" checked />
       </div>
       <div class="setting">
-          <label>Include lowercase letters</label>
-          <input type="checkbox" id="lowercase" checked />
+        <label>Include lowercase letters</label>
+        <input type="checkbox" id="lowercase" checked />
       </div>
       <div class="setting">
-          <label>Include numbers</label>
-          <input type="checkbox" id="numbers" checked />
+        <label>Include numbers</label>
+        <input type="checkbox" id="numbers" checked />
       </div>
       <div class="setting">
-          <label>Include symbols</label>
-          <input type="checkbox" id="symbols" checked />
+        <label>Include symbols</label>
+        <input type="checkbox" id="symbols" checked />
       </div>
 
-    <textarea class="tetra" readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
-    <button class="btn btn-primary btn-lg disabled buttons" id="generate">Generate Password</button>
-    <button class="btn btn-secondary btn-lg disabled" id="copy">
-      Copy to Clipboard
-    </button>
-  </div>
+      <textarea class="tetra" readonly id="password" placeholder="Your Secure Password"
+        aria-label="Generated Password"></textarea>
+      <div>
+        <button class="btn btn-primary btn-lg disabled buttons" id="generate">Generate Password</button>
+        <button class="btn btn-secondary btn-lg disabled" id="copy">
+          Copy to Clipboard
+        </button>
+      </div>
+    </div>
 </body>
 
 <script src="script.js"></script>
