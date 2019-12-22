@@ -16,58 +16,21 @@ var randomFunc = {
 
 console.log(uppercaseEl)
 
-// var lowercase = ["a", "b", "c"];
-// var uppercase = ["D", "E", "F"];
-// var symbols = ["!", "@", "#"];
-
-// var random = [];
-
-// make an array of lowercase letters
-// let uppercase = ['U', 'X']
-// make an array of uppercase letters
-// make an array of symbols
-// create an empty array that will hold your random letters
-// for loop to go through array
-
-
-
-// function getRandomUpper() {
-//   for(var i=0; i < uppercase.length; i++){
-//     var randomNum = Math.floor(Math.random() * 27)
-//     var randomLetter = uppercase[randomNum]
-//     // save this variable by pushing it to an empty array
-//     random.push(randomLetter)
-//     console.log(random)
-//   }
-// }
-
-//   function getRandomLower() {
-//     for(var i=0; i < lowercaseEl.length; i++){
-//       var randomNum = Math.floor(Math.random() * 27)
-//       var randomLetter = lowercaseEl[randomNum]
-//       random.push(randomLetter)
-
-//     }
-// }
-
-  // you will have a list of random letters
-  // which will be generated password
-
-
 clipboard.addEventListener('click', function() {
-	var textarea = document.getElementsByTagName(textarea);
-	var password = resultEl.innerText;
+    // console.log(clipboard)
+	// var textarea = document.getElementsByTagName(textarea);
+	var password = resultEl.value;
+	// console.log(password)
 	// I DONT UNDERSTAND THIS CODE!!!!!!!!!!!!!!!
 	if(!password) { return; }
-	textarea.value = password;
-	document.body.appendChild(textarea);
-    textarea.select();
-    textarea.setSelectionRange(0, 99999);
-	document.execCommand('clipboard');
-	textarea.remove();
+	// textarea.value = password;
+	// document.body.appendChild(textarea);
+    resultEl.select();
+    // textarea.setSelectionRange(0, 99999);
+	document.execCommand('copy');
+	// textarea.remove();
     alert('Password copied to clipboard');
     
-    console.log(clipboard)
 });
 
 
