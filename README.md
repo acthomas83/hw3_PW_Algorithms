@@ -12,7 +12,7 @@ Although this application appears simple from the GUI perspective, the nuts and 
 
 This repo can be cloned from GitHub using the following instructions.
 
-1.  Visit the [Random Password Generator](https://www.contributor-covenant.org/) repo.
+1.  Visit the [Random Password Generator](https://github.com/acthomas83/hw3_PW_Algorithms) repo.
 2.  Fork the repo to your GitHub account by clicking the fork button at the top right of the page.
 3.  From the newly created repo, click on the 'Clone or Download' drop-down button in the right corner of the page.
 4.  You may download the repo zip file, or clone the repo using the copy button to the right of the URL.
