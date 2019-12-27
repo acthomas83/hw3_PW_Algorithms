@@ -2,20 +2,22 @@
 
 ## Description 
 
-This project was brought about because of the occationally need to create secure passwords. Thinking of a random password on your own isn't always as easy as it seems. Thanks to this simple and easy to use web application, you will never have to again.
+This project was brought about because of the occasionally need to create secure passwords. Thinking of a random password on your own isn't always as easy as it seems. Thanks to this simple and easy to use web application, you will never have to again.
 
-This web application is a random password generator that allows a user to specify customized features of their password including the legth of the password (8-128 characters), as well if the password should include upper-case, lower-case, numbers and/or special characters.
+This web application is a random password generator that allows a user to specify customized features of their password including the length of the password (8-128 characters), as well if the password should include upper-case, lower-case, numbers and/or special characters.
 
-Although this application appears simple from the GUI perspective, the nuts and bolts under the hood created a chanllenging experience that required some extensive thought and problemsolving to get it to work properly. I learned that its always a good idea to conduct due dilligence by completing a thourough pseudocodding to map out the project beforehand.
-
+Although this application appears simple from the GUI perspective, the nuts and bolts under the hood created a challenging experience that required some extensive thought and problem-solving to get it to work properly. I learned that it’s always a good idea to conduct due diligence by completing a thorough pseudocoding to map out the project beforehand.
 
 ## Installation
 
-This repo can be cloned from GitHud using the following instructions.
+This repo can be cloned from GitHub using the following instructions.
 
-1.  Visit the [Random Password Generator]](https://www.contributor-covenant.org/) repo.
-2.  Click on the 'Clone Repository' button in the top right corner
-
+1.  Visit the [Random Password Generator](https://www.contributor-covenant.org/) repo.
+2.  Fork the repo to your GitHub account by clicking the fork button at the top right of the page.
+3.  From the newly created repo, click on the 'Clone or Download' drop-down button in the right corner of the page.
+4.  You may download the repo zip file, or clone the repo using the copy button to the right of the URL.
+5. Clone the repo to your local system by using the Terminal code;
+        $ git clone https://github.com/acthomas83/hw2_responsive_profile.git
 
 ## Usage 
 
@@ -27,10 +29,9 @@ To generate a random password;
 
 To generate a new secure password, repeat the steps above.
 
-
 ## Credits
 
-Special thanks to Spring 2019 Bootcamp student Jeremiah Grahm for his assistance with getting my core code to work properly.
+Special thanks to Spring 2019 Bootcamp student Jeremiah Graham for his assistance with getting my core code to work properly.
 
 ## License
 
