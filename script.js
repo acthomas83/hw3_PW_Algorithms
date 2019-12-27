@@ -43,6 +43,7 @@ generateEl.addEventListener('click', function() {
 	var hasSymbol = symbolsEl.checked;
 	
 	resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
+	
 });
 
 function generatePassword(lower, upper, number, symbol, length) {
@@ -54,7 +55,11 @@ function generatePassword(lower, upper, number, symbol, length) {
 	if(typesCount === 0) {
 		return '';
 	}
-	
+	// Doesnt meet min max values
+	if(length > 128	 || length < 8) {
+		alert("ERROR: Your desired password must be between 8-128 characters!")
+		return ''
+	}
 	// create a loop
 	for(let i=0; i<length; i+=typesCount) {
 		typesArr.forEach(type => {
