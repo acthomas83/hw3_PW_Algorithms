@@ -12,12 +12,12 @@ Although this application appears simple from the GUI perspective, the nuts and 
 
 This repo can be cloned from GitHub using the following instructions.
 
-1.  Visit the [Random Password Generator](https://github.com/acthomas83/hw3_PW_Algorithms) repo.
+1.  Visit the [Random Password Generator](target="new window" https://github.com/acthomas83/hw3_PW_Algorithms) repo.
 2.  Fork the repo to your GitHub account by clicking the fork button at the top right of the page.
 3.  From the newly created repo, click on the 'Clone or Download' drop-down button in the right corner of the page.
 4.  You may download the repo zip file, or clone the repo using the copy button to the right of the URL.
 5. Clone the repo to your local system by using the Terminal code;
-        $ git clone https://github.com/acthomas83/hw2_responsive_profile.git
+        $ git clone https://github.com/acthomas83/hw3_PW_Algorithms.git
 
 ## Usage 
 
@@ -31,7 +31,7 @@ To generate a new secure password, repeat the steps above.
 
 ## Credits
 
-Special thanks to Spring 2019 Bootcamp student Jeremiah Graham for his assistance with getting my core code to work properly.
+Special thanks to Spring 2019 Bootcamp student, Jeremiah Graham for his assistance with getting my core code to work properly.
 
 ## License
 
